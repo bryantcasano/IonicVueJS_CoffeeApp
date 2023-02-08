@@ -196,7 +196,7 @@ import {
 const BASE_URI =
   process.env.VUE_APP_BASE_URI !== undefined
     ? process.env.VUE_APP_BASE_URI
-    : "https://api.dev.onecoffee.qusol.com.au";
+    : "";
 
 export default defineComponent({
   name: "CheckoutPage",
