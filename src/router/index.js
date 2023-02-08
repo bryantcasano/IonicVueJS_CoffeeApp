@@ -38,7 +38,7 @@ import CategoryGridPage from "../views/filters/CategoryGridPage.vue";
 const BASE_URI =
   process.env.VUE_APP_BASE_URI !== undefined
     ? process.env.VUE_APP_BASE_URI
-    : "https://api.dev.onecoffee.qusol.com.au";
+    : "";
 
 const routes = [
   {
